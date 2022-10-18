@@ -1,3 +1,10 @@
+# 1.0.0 (2022-10-18)
+
+
+### Features
+
+* init release ([09ba972](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/commit/09ba9723c34473de60d0ca49b213a82ae62d2a4e))
+
 # 1.0.0-issue-init.1 (2022-10-18)
 
 
