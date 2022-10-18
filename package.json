@@ -1,0 +1,47 @@
+{
+  "name": "@beepbeepgo/semantic-release",
+  "version": "1.0.0",
+  "description": "A shared nodejs library for managing semantic-release.",
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/issues"
+  },
+  "homepage": "https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config#readme",
+  "main": "release.config.js",
+  "files": [
+    "src",
+    "dist"
+  ],
+  "author": "beepbeepgo",
+  "scripts": {
+    "audit": "npm audit --production --audit-level=high",
+    "semantic-release": "semantic-release",
+    "test": "npx jest",
+    "coverage": "npm test -- --coverage --group=unit --coverageReporters=cobertura --reporters=jest-junit",
+    "lint": "eslint src --ext .js,.jsx",
+    "lint:fix": "eslint src --ext .js,.jsx --fix"
+  },
+  "devDependencies": {
+    "@beepbeepgo/eslint-config-beepbeepgo-common": "^1.0.4",
+    "eslint-plugin-react": "^7.31.10",
+    "npm-run-all": "4.1.5"
+  },
+  "dependencies": {
+    "@codedependant/semantic-release-docker": "^4.1.0",
+    "@semantic-release/changelog": "^6.0.1",
+    "@semantic-release/commit-analyzer": "^9.0.2",
+    "@semantic-release/exec": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/gitlab": "^9.4.2",
+    "@semantic-release/npm": "^9.0.1",
+    "@semantic-release/release-notes-generator": "^10.0.3",
+    "semantic-release": "^19.0.2"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

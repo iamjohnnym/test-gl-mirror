@@ -1,0 +1,114 @@
+variables:
+  NPM_TOKEN: ${GITLAB_TOKEN}
+  CODE_QUALITY_DISABLED: "true"
+  DOCKER_HOST: tcp://docker:2375
+  DOCKER_TLS_CERTDIR: ""
+
+workflow:
+  rules:
+    - if: $CI_COMMIT_BRANCH
+
+include:
+  - template: Security/Dependency-Scanning.gitlab-ci.yml
+  - template: Security/SAST.gitlab-ci.yml
+
+stages:
+  - dependencies
+  - test
+  - release
+
+.node:
+  variables:
+    IMAGE: node:16
+  image: $IMAGE
+
+.node_cache:
+  extends: .node
+  cache:
+    key: $CI_PROJECT_DIR-$CI_COMMIT_REF_SLUG
+    paths:
+      - node_modules/
+    policy: pull
+
+Dependencies:
+  extends: .node
+  stage: dependencies
+  cache:
+    key: $CI_PROJECT_DIR-$CI_COMMIT_REF_SLUG
+    paths:
+      - node_modules/
+  script:
+    - npm ci
+  rules:
+    - if: '$CI_MERGE_REQUEST_ID == null'
+      changes:
+        - package-lock.json
+
+Node Lint:
+  stage: test
+  extends: .node_cache
+  script:
+    - npm run lint
+  rules:
+    - if: $CI_MERGE_REQUEST_ID == null
+      exists:
+      - .eslintrc.js
+  allow_failure: true
+
+Node Audit:
+  stage: test
+  extends: .node_cache
+  script:
+    - npm audit
+  rules:
+    - if: $CI_MERGE_REQUEST_ID == null
+      exists:
+      - package.json
+
+Node Coverage:
+  stage: test
+  extends: .node_cache
+  coverage: /All files[^|]*\|[^|]*\s+([\d\.]+)/
+  script:
+    - npm run coverage
+  artifacts:
+    reports:
+      junit: junit.xml
+      coverage_report:
+        coverage_format: cobertura
+        path: coverage/cobertura-coverage.xml
+    paths:
+      - coverage/
+  rules:
+    - if: $CI_MERGE_REQUEST_ID == null
+      exists:
+      - jest.config.js
+  allow_failure: true
+
+.semantic-release:
+  image:
+    name: registry.gitlab.com/beepbeepgo/public/docker/semantic-release-docker:latest
+    entrypoint: [""]
+  before_script:
+    - npm ci --cache .npm --prefer-offline
+    - |
+      {
+        echo "@${CI_PROJECT_ROOT_NAMESPACE}:registry=${CI_API_V4_URL}/projects/${CI_PROJECT_ID}/packages/npm/"
+        echo "${CI_API_V4_URL#https?}/projects/${CI_PROJECT_ID}/packages/npm/:_authToken=\${CI_JOB_TOKEN}"
+      } | tee -a .npmrc
+cache:
+    key: $CI_PROJECT_DIR
+    paths:
+      - .npm/
+
+release:
+  extends: .semantic-release
+  stage: release
+  services:
+    - docker:20.10.19-dind
+  script:
+    - touch CHANGELOG.md
+    - npx semantic-release
+  artifacts:
+    paths:
+    - CHANGELOG.md
