@@ -1,3 +1,10 @@
+## [1.0.2](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/compare/1.0.1...1.0.2) (2022-11-18)
+
+
+### Bug Fixes
+
+* skip ci for terraform ([4a19726](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/commit/4a19726fdf174f2d1fb20ea81f7d307cb2a2e496))
+
 ## [1.0.2-issue-tf-skip-ci.1](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/compare/1.0.1...1.0.2-issue-tf-skip-ci.1) (2022-11-18)
 
 
