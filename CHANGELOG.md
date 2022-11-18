@@ -1,3 +1,10 @@
+## [1.0.3](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/compare/1.0.2...1.0.3) (2022-11-18)
+
+
+### Bug Fixes
+
+* remove skipci ([e11952f](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/commit/e11952f99e109e3cab939a4cca63f164fe1f4055))
+
 ## [1.0.3-issue-tf-remove-skipci.1](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/compare/1.0.2...1.0.3-issue-tf-remove-skipci.1) (2022-11-18)
 
 
