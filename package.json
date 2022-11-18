@@ -1,6 +1,6 @@
 {
   "name": "@beepbeepgo/semantic-release",
-  "version": "1.0.1",
+  "version": "1.0.2-issue-tf-skip-ci.1",
   "description": "A shared nodejs library for managing semantic-release.",
   "repository": {
     "type": "git",
