@@ -1,3 +1,10 @@
+## [1.0.4](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/compare/1.0.3...1.0.4) (2022-11-27)
+
+
+### Bug Fixes
+
+* test renovate ([7d8d114](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/commit/7d8d114a33d166cefe4d14fd59c35a3567ce024f))
+
 ## [1.0.3](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/compare/1.0.2...1.0.3) (2022-11-18)
 
 
