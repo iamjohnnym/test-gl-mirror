@@ -22,7 +22,7 @@ module.exports = {
     }],
     '@semantic-release/npm',
     [
-      '@semantic-release/git',
+      '@semantic-release/gitlab',
       {
         'assets': ['package.json', 'src/**/*.js', 'docs', 'README.md', 'CHANGELOG.md'],
         'message': 'chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}'
@@ -35,6 +35,5 @@ module.exports = {
     ],
       'dockerRegistry': 'registry.gitlab.com'
     }],
-    '@semantic-release/gitlab'
   ]
 };

@@ -17,19 +17,17 @@ module.exports = {
         'changelogFile': 'CHANGELOG.md'
       }
     ],
-    '@semantic-release/gitlab',
     '@semantic-release/npm',
     [
-      '@semantic-release/git',
+      '@semantic-release/gitlab',
       {
-        'assets': ['package.json', 'src/**/*.js', 'docs', 'README.md', 'CHANGELOG.md'],
+        'assets': ['package.json', '*.tf*', 'README.md', 'CHANGELOG.md'],
         'message': 'chore(release): ${nextRelease.version} \n\n${nextRelease.notes}'
       }
     ]
   ],
   verifyConditions: [
     '@semantic-release/changelog',
-    '@semantic-release/git',
     '@semantic-release/gitlab'
   ],
   tagFormat: [
