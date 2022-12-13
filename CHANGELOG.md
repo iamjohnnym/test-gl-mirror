@@ -1,3 +1,10 @@
+## [1.0.5-issue-gitlab-release.2](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/compare/1.0.5-issue-gitlab-release.1...1.0.5-issue-gitlab-release.2) (2022-12-13)
+
+
+### Bug Fixes
+
+* ignore .npm dir ([7920e61](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/commit/7920e61a77fcce3977906a98c3fd1cdae826d95c))
+
 ## [1.0.5-issue-gitlab-release.1](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/compare/1.0.4...1.0.5-issue-gitlab-release.1) (2022-12-12)
 
 
