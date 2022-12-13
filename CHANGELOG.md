@@ -1,3 +1,10 @@
+## [1.0.5](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/compare/1.0.4...1.0.5) (2022-12-13)
+
+
+### Bug Fixes
+
+* store the .tf files but not others ([c40049e](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/commit/c40049ee4eaf18a23ea526d8000bb621459ce14e))
+
 ## [1.0.5-issue-gitlab-release.2](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/compare/1.0.5-issue-gitlab-release.1...1.0.5-issue-gitlab-release.2) (2022-12-13)
 
 
