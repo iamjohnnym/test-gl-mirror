@@ -21,7 +21,7 @@ module.exports = {
     [
       '@semantic-release/gitlab',
       {
-        'assets': ['package.json', '*.tf*', 'README.md', 'CHANGELOG.md'],
+        'assets': ['package.json', '!.npm', '*.tf*', 'README.md', 'CHANGELOG.md'],
         'message': 'chore(release): ${nextRelease.version} \n\n${nextRelease.notes}'
       }
     ]
