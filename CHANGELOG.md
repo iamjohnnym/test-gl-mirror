@@ -1,3 +1,19 @@
+## [1.0.5-issue-gitlab-release.2](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/compare/1.0.5-issue-gitlab-release.1...1.0.5-issue-gitlab-release.2) (2022-12-13)
+
+
+### Bug Fixes
+
+* ignore .npm dir ([7920e61](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/commit/7920e61a77fcce3977906a98c3fd1cdae826d95c))
+
+## [1.0.5-issue-gitlab-release.1](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/compare/1.0.4...1.0.5-issue-gitlab-release.1) (2022-12-12)
+
+
+### Bug Fixes
+
+* bump eslint config version ([82b4ef4](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/commit/82b4ef4072e2806c5df5920e14a84a3be5720f5a))
+* store the .tf files but not others ([eb2fbe2](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/commit/eb2fbe234b7e946bd26a08b56eef75d881cdbc38))
+* update lock file ([e87fb07](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/commit/e87fb078a9350dce53ead41898782d97b9ccfd0d))
+
 ## [1.0.4](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/compare/1.0.3...1.0.4) (2022-11-27)
 
 
