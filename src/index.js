@@ -25,7 +25,7 @@ const semanticReleaseConfigDocker = (options = {}) => {
     }
   }
   return semanticReleaseConfigDefault(
-    merge(merge(overrides, defaultOptions), options)
+    merge(merge(defaultOptions, overrides), options)
   )
 }
 
