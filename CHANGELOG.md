@@ -1,3 +1,10 @@
+# [1.1.0-issue-shareable-configify.1](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/compare/1.0.5...1.1.0-issue-shareable-configify.1) (2022-12-15)
+
+
+### Features
+
+* semantic-release rework ([5a10440](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/commit/5a10440b6eea2f2db326ba1be7199d2316727d97))
+
 ## [1.0.5](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/compare/1.0.4...1.0.5) (2022-12-13)
 
 
