@@ -1,3 +1,10 @@
+# [1.1.0-issue-shareable-configify.4](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/compare/1.1.0-issue-shareable-configify.3...1.1.0-issue-shareable-configify.4) (2022-12-15)
+
+
+### Bug Fixes
+
+* fix merge on docker ([f86c98e](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/commit/f86c98e655555ef47c9f2984db4df7c1a71fa76d))
+
 # [1.1.0-issue-shareable-configify.3](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/compare/1.1.0-issue-shareable-configify.2...1.1.0-issue-shareable-configify.3) (2022-12-15)
 
 
