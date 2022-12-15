@@ -1,3 +1,10 @@
+# [1.1.0-issue-shareable-configify.2](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/compare/1.1.0-issue-shareable-configify.1...1.1.0-issue-shareable-configify.2) (2022-12-15)
+
+
+### Bug Fixes
+
+* change package main path ([d531837](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/commit/d5318373e33069951a7f103a84944c60fd62a4c1))
+
 # [1.1.0-issue-shareable-configify.1](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/compare/1.0.5...1.1.0-issue-shareable-configify.1) (2022-12-15)
 
 
