@@ -16,8 +16,16 @@ const semanticReleaseConfigDefault = (options = {}) => {
 }
 
 const semanticReleaseConfigDocker = (options = {}) => {
+  const overrides = {
+    docker: true,
+    plugins: {
+      git: {
+        skipCi: false
+      }
+    }
+  }
   return semanticReleaseConfigDefault(
-    merge(merge({docker: true}, defaultOptions), options)
+    merge(merge(overrides, defaultOptions), options)
   )
 }
 
