@@ -11,7 +11,7 @@
     "url": "https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/issues"
   },
   "homepage": "https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config#readme",
-  "main": "release.config.js",
+  "main": "src/",
   "files": [
     "src",
     "dist"
