@@ -1,6 +1,6 @@
 {
   "name": "@beepbeepgo/semantic-release",
-  "version": "1.0.5",
+  "version": "1.1.0-issue-shareable-configify.4",
   "description": "A shared nodejs library for managing semantic-release.",
   "repository": {
     "type": "git",
@@ -11,7 +11,7 @@
     "url": "https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/issues"
   },
   "homepage": "https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config#readme",
-  "main": "release.config.js",
+  "main": "src/",
   "files": [
     "src",
     "dist"

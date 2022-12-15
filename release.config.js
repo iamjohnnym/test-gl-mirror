@@ -1,2 +1,2 @@
-const { npmConfig } = require('./src/index');
-module.exports = npmConfig
+const { semanticReleaseConfigDefault } = require('./src/index');
+module.exports = semanticReleaseConfigDefault()
