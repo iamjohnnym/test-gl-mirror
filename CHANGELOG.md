@@ -1,3 +1,10 @@
+# [1.1.0-issue-shareable-configify.3](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/compare/1.1.0-issue-shareable-configify.2...1.1.0-issue-shareable-configify.3) (2022-12-15)
+
+
+### Bug Fixes
+
+* add overrides ([b636686](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/commit/b63668661825c6ba17a5bfc046154e4343242e2a))
+
 # [1.1.0-issue-shareable-configify.2](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/compare/1.1.0-issue-shareable-configify.1...1.1.0-issue-shareable-configify.2) (2022-12-15)
 
 
