@@ -1,3 +1,10 @@
+## [2.0.2-issue-terraform.3](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/compare/2.0.2-issue-terraform.2...2.0.2-issue-terraform.3) (2022-12-16)
+
+
+### Bug Fixes
+
+* its exclude not excludes ([96ac05f](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/commit/96ac05f20c44c908c47a13b52feb0cce88866f9e))
+
 ## [2.0.2-issue-terraform.2](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/compare/2.0.2-issue-terraform.1...2.0.2-issue-terraform.2) (2022-12-16)
 
 
