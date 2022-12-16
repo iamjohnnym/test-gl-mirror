@@ -1,3 +1,10 @@
+## [2.0.2-issue-terraform.4](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/compare/2.0.2-issue-terraform.3...2.0.2-issue-terraform.4) (2022-12-16)
+
+
+### Bug Fixes
+
+* update gitlab-ci ([fe01c8d](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/commit/fe01c8d680e5ebcdf3ed2de677e2554667ec6ef4))
+
 ## [2.0.2-issue-terraform.3](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/compare/2.0.2-issue-terraform.2...2.0.2-issue-terraform.3) (2022-12-16)
 
 

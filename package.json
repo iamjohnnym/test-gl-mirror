@@ -1,6 +1,6 @@
 {
   "name": "@beepbeepgo/semantic-release",
-  "version": "2.0.2-issue-terraform.3",
+  "version": "2.0.2-issue-terraform.4",
   "description": "A shared nodejs library for managing semantic-release.",
   "repository": {
     "type": "git",
