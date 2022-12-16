@@ -1,3 +1,10 @@
+## [2.0.1](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/compare/2.0.0...2.0.1) (2022-12-16)
+
+
+### Bug Fixes
+
+* pre-release tags ([c513318](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/commit/c5133180710ef14e750262cd51256b45211de156))
+
 # [2.0.0](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/compare/1.0.5...2.0.0) (2022-12-16)
 
 
