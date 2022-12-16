@@ -1,8 +1,12 @@
-const branchName = process.env.CI_COMMIT_REF_NAME || process.env.SR_BRANCH_NAME || "disabled";
+const branchName =  process.env.SR_BRANCH_NAME || process.env.CI_COMMIT_REF_NAME || "disabled";
 const isGitlab = process.env.GITLAB_CI || false;
-const dockerProject = process.env.CI_PROJECT_NAMESPACE || process.env.SR_DOCKER_PROJECT || null;
-const dockerRegistry = process.env.CI_REGISTRY || process.env.SR_DOCKER_REGISTRY || null;
-const dockerImage = process.env.CI_PROJECT_NAME || process.env.SR_DOCKER_IMAGE || null;
+const dockerProject = process.env.SR_DOCKER_PROJECT || process.env.CI_PROJECT_NAMESPACE || null;
+const dockerRegistry = process.env.SR_DOCKER_REGISTRY || process.env.CI_REGISTRY || null;
+const dockerImage = process.env.SR_DOCKER_IMAGE || process.env.CI_PROJECT_NAME || null;
+const terraformName = process.env.SR_TERRAFORM_NAME || process.env.CI_PROJECT_NAME || null;
+const terraformDir = process.env.SR_TERRAFORM_DIR || process.env.CI_PROJECT_DIR || './';
+const terraformSystem = process.env.SR_TERRAFORM_SYSTEM || 'local';
+const terraformAuthToken = process.env.SR_TERRAFORM_AUTH_TOKEN || process.env.CI_JOB_TOKEN || null;
 
 const defaultOptions = {
   branchName: branchName,
@@ -14,6 +18,7 @@ const defaultOptions = {
   gitlab: isGitlab,
   git: true,
   docker: false,
+  terraform: false,
   tag: {
     prefixed: false,
     format: '${version}'
@@ -59,6 +64,15 @@ const defaultOptions = {
       dockerArgs: {},
       dockerPublish: true,
       dockerVerifyCmd: false
+    },
+    terraform: {
+      name: terraformName,
+      dir: terraformDir,
+      system: terraformSystem,
+      authToken: terraformAuthToken,
+      registryUrl: "",
+      excludes: ['./.git', './node_modules', './.npm', './*.xml', './*.json'],
+      appendExcludes: []
     }
   }
 }

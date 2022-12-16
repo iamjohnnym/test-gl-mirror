@@ -1,3 +1,38 @@
+## [2.0.2-issue-terraform.5](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/compare/2.0.2-issue-terraform.4...2.0.2-issue-terraform.5) (2022-12-16)
+
+
+### Bug Fixes
+
+* use semantic-release version var ([879a56a](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/commit/879a56a8e049a0749edb7247d3d75d9c5170e813))
+
+## [2.0.2-issue-terraform.4](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/compare/2.0.2-issue-terraform.3...2.0.2-issue-terraform.4) (2022-12-16)
+
+
+### Bug Fixes
+
+* update gitlab-ci ([fe01c8d](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/commit/fe01c8d680e5ebcdf3ed2de677e2554667ec6ef4))
+
+## [2.0.2-issue-terraform.3](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/compare/2.0.2-issue-terraform.2...2.0.2-issue-terraform.3) (2022-12-16)
+
+
+### Bug Fixes
+
+* its exclude not excludes ([96ac05f](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/commit/96ac05f20c44c908c47a13b52feb0cce88866f9e))
+
+## [2.0.2-issue-terraform.2](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/compare/2.0.2-issue-terraform.1...2.0.2-issue-terraform.2) (2022-12-16)
+
+
+### Bug Fixes
+
+* wrong exec module. ([6f99d03](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/commit/6f99d0333a7d251ed43d0b16b91ee5f39be2f2b2))
+
+## [2.0.2-issue-terraform.1](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/compare/2.0.1...2.0.2-issue-terraform.1) (2022-12-16)
+
+
+### Bug Fixes
+
+* add terraform upload support ([c0736cc](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/commit/c0736cc7589810aa00475eab5746b99949682ba5))
+
 ## [2.0.1](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/compare/2.0.0...2.0.1) (2022-12-16)
 
 
