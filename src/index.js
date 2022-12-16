@@ -33,9 +33,9 @@ const semanticReleaseConfigDockerMulti = (options = {}) => {
   if (!options.projectPath) {
     throw 'Invalid Docker Multi config. Must set projectPath param in any docker project\'s release config.\nSee README."'
   }
-  fs.readFile(`${options.projectPath}/package.json`)
+  const packageJson = fs.readFile(`${options.projectPath}/package.json`)
     .then((data) => {
-      const packageJson = JSON.stringify(data);
+      return JSON.stringify(data);
     })
     .catch((error) => {
       throw `An error occurred: ${error}`;
