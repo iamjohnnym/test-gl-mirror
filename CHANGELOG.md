@@ -1,3 +1,10 @@
+## [2.0.2](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/compare/2.0.1...2.0.2) (2022-12-16)
+
+
+### Bug Fixes
+
+* add terraform upload support ([eff915d](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/commit/eff915d744c90529a02c891d8697d30f59750dc9))
+
 ## [2.0.2-issue-terraform.5](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/compare/2.0.2-issue-terraform.4...2.0.2-issue-terraform.5) (2022-12-16)
 
 
