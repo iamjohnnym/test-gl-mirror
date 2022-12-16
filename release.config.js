@@ -1,2 +1,2 @@
 const { semanticReleaseConfigDefault } = require('./src/index');
-module.exports = semanticReleaseConfigDefault()
+module.exports = semanticReleaseConfigDefault();

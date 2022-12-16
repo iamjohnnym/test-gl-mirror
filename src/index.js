@@ -29,7 +29,22 @@ const semanticReleaseConfigDocker = (options = {}) => {
   )
 }
 
+const semanticReleaseConfigTerraform = (options = {}) => {
+  const overrides = {
+    terraform: true,
+    plugins: {
+      git: {
+        skipCi: false
+      }
+    }
+  }
+  return semanticReleaseConfigDefault(
+    merge(merge(defaultOptions, overrides), options)
+  )
+}
+
 module.exports = {
   semanticReleaseConfigDefault,
-  semanticReleaseConfigDocker
+  semanticReleaseConfigDocker,
+  semanticReleaseConfigTerraform
 }
