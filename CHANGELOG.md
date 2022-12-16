@@ -1,3 +1,10 @@
+## [2.0.3](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/compare/2.0.2...2.0.3) (2022-12-16)
+
+
+### Bug Fixes
+
+* add docker multi support ([b6f3db4](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/commit/b6f3db4c22b83338af596c7868f4e015c460b650))
+
 ## [2.0.3-issue-docker-multi.3](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/compare/2.0.3-issue-docker-multi.2...2.0.3-issue-docker-multi.3) (2022-12-16)
 
 
