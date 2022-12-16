@@ -47,7 +47,7 @@ const defaultOptions = {
     },
     docker: {
       dockerTags: [
-        '{{#if prerelease}}{{prerelease}}{{else}}latest{{/if}}',
+        '{{#if prerelease.[0]}}{{prerelease.[0]}}{{else}}latest{{/if}}',
         '{{version}}'
       ],
       dockerImage: dockerImage,
