@@ -1,3 +1,10 @@
+## [2.0.3-issue-docker-multi.3](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/compare/2.0.3-issue-docker-multi.2...2.0.3-issue-docker-multi.3) (2022-12-16)
+
+
+### Bug Fixes
+
+* parse package json properly ([b75e00d](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/commit/b75e00d355b456ba41d6df94a9da522762c88059))
+
 ## [2.0.3-issue-docker-multi.2](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/compare/2.0.3-issue-docker-multi.1...2.0.3-issue-docker-multi.2) (2022-12-16)
 
 
