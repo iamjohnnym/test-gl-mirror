@@ -15,8 +15,8 @@ function configureTerraform(o) {
   }
   const fileName = `${terraform.name}-${terraform.system}-${terraform.version}.tgz`
   let excludes = mergeList(terraform.excludes, terraform.appendExcludes);
-  excludes = terraform.excludes.join(' --excludes=');
-  const prepareCmd = `tar -cvzf ${fileName} -C ${terraform.dir} --excludes=${excludes} .`
+  excludes = terraform.excludes.join(' --exclude=');
+  const prepareCmd = `tar -cvzf ${fileName} -C ${terraform.dir} --exclude=${excludes} .`
   const publishCmd = `curl --header "JOB-TOKEN: ${terraform.authToken}" --upload-file ${fileName}.tgz ${o.registryUrl}`
   return [
     [
