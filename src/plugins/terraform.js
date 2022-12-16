@@ -20,7 +20,7 @@ function configureTerraform(o) {
   const publishCmd = `curl --header "JOB-TOKEN: ${terraform.authToken}" --upload-file ${fileName}.tgz ${o.registryUrl}`
   return [
     [
-      '@codedependant/semantic-release-exec', {
+      '@semantic-release/exec', {
         'prepareCmd': prepareCmd,
         'publishCmd': publishCmd
       }
