@@ -6,7 +6,6 @@ const dockerImage = process.env.SR_DOCKER_IMAGE || process.env.CI_PROJECT_NAME |
 const terraformName = process.env.SR_TERRAFORM_NAME || process.env.CI_PROJECT_NAME || null;
 const terraformDir = process.env.SR_TERRAFORM_DIR || process.env.CI_PROJECT_DIR || './';
 const terraformSystem = process.env.SR_TERRAFORM_SYSTEM || 'local';
-const terraformVersion = process.env.SR_TERRAFORM_VERSION || process.env.CI_COMMIT_TAG || null;
 const terraformAuthToken = process.env.SR_TERRAFORM_AUTH_TOKEN || process.env.CI_JOB_TOKEN || null;
 
 const defaultOptions = {
@@ -70,7 +69,6 @@ const defaultOptions = {
       name: terraformName,
       dir: terraformDir,
       system: terraformSystem,
-      version: terraformVersion,
       authToken: terraformAuthToken,
       registryUrl: "",
       excludes: ['./.git', './node_modules', './.npm', './*.xml', './*.json'],
