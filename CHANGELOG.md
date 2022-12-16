@@ -1,3 +1,10 @@
+## [2.0.2-issue-terraform.2](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/compare/2.0.2-issue-terraform.1...2.0.2-issue-terraform.2) (2022-12-16)
+
+
+### Bug Fixes
+
+* wrong exec module. ([6f99d03](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/commit/6f99d0333a7d251ed43d0b16b91ee5f39be2f2b2))
+
 ## [2.0.2-issue-terraform.1](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/compare/2.0.1...2.0.2-issue-terraform.1) (2022-12-16)
 
 
