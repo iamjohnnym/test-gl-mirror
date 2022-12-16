@@ -1,5 +1,4 @@
-const fs = require('fs/promises');
-const { merge } = require('./utils');
+const { merge, openJsonFile } = require('./utils');
 const { configureBranches } = require('./branches');
 const { configureTagFormat } = require('./tagFormat');
 const { configurePlugins } = require('./plugins');
@@ -33,14 +32,7 @@ const semanticReleaseConfigDockerMulti = (options = {}) => {
   if (!options.projectPath) {
     throw 'Invalid Docker Multi config. Must set projectPath param in any docker project\'s release config.\nSee README."'
   }
-  const packageJson = fs.readFile(`${options.projectPath}/package.json`)
-    .then((data) => {
-      return JSON.stringify(data);
-    })
-    .catch((error) => {
-      throw `An error occurred: ${error}`;
-    }
-  );
+  const packageJson = openJsonFile(`${options.projectPath}/package.json`)
   const overrides = {
     docker: true,
     dockerMulti: true,
