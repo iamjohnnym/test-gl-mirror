@@ -18,6 +18,7 @@ const defaultOptions = {
   gitlab: isGitlab,
   git: true,
   docker: false,
+  dockerMulti: false,
   terraform: false,
   tag: {
     prefixed: false,

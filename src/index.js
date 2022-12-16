@@ -1,4 +1,4 @@
-//const { semanticReleaseConfig } = require('./config');
+const fs = require('fs/promises');
 const { merge } = require('./utils');
 const { configureBranches } = require('./branches');
 const { configureTagFormat } = require('./tagFormat');
@@ -29,6 +29,38 @@ const semanticReleaseConfigDocker = (options = {}) => {
   )
 }
 
+const semanticReleaseConfigDockerMulti = (options = {}) => {
+  if (!options.projectPath) {
+    throw 'Invalid Docker Multi config. Must set projectPath param in any docker project\'s release config.\nSee README."'
+  }
+  fs.readFile(`${options.projectPath}/package.json`)
+    .then((data) => {
+      const packageJson = JSON.stringify(data);
+    })
+    .catch((error) => {
+      throw `An error occurred: ${error}`;
+    }
+  );
+  const overrides = {
+    docker: true,
+    dockerMulti: true,
+    plugins: {
+      git: {
+        skipCi: false
+      },
+      docker: {
+        dockerTags: [
+          `{{#if prerelease.[0]}}${packageJson.docker_version}-{{prerelease.[0]}}{{else}}${packageJson.docker_version}-latest{{/if}}`,
+          `${packageJson.docker_version}-{{version}}`
+        ]
+      }
+    }
+  }
+  return semanticReleaseConfigDefault(
+    merge(merge(defaultOptions, overrides), options)
+  )
+}
+
 const semanticReleaseConfigTerraform = (options = {}) => {
   const overrides = {
     terraform: true,
@@ -46,5 +78,6 @@ const semanticReleaseConfigTerraform = (options = {}) => {
 module.exports = {
   semanticReleaseConfigDefault,
   semanticReleaseConfigDocker,
-  semanticReleaseConfigTerraform
+  semanticReleaseConfigTerraform,
+  semanticReleaseConfigDockerMulti
 }
