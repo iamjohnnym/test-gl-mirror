@@ -1,3 +1,10 @@
+## [2.0.4-renovate-all.1](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/compare/2.0.3...2.0.4-renovate-all.1) (2022-12-17)
+
+
+### Bug Fixes
+
+* **deps:** update docker docker tag to v20.10.22 ([d3d7ecc](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/commit/d3d7ecc98e01a5ea586c6602ae3eddfd0c591ba4))
+
 ## [2.0.3](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/compare/2.0.2...2.0.3) (2022-12-16)
 
 
