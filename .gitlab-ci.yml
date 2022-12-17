@@ -105,7 +105,7 @@ release:
   extends: .semantic-release
   stage: release
   services:
-    - docker:20.10.21-dind
+    - docker:20.10.22-dind
   script:
     - touch CHANGELOG.md
     - npx semantic-release
