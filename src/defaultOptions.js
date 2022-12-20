@@ -46,7 +46,7 @@ const defaultOptions = {
     },
     gitlab: {},
     git: {
-      skipCi: true,
+      skipCi: false,
       assets: ['README.md'],
       message: 'chore(release): ${nextRelease.version}',
       appendAssets: []
