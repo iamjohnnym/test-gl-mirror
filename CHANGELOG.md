@@ -1,3 +1,10 @@
+## [2.0.4-issue-convert-to-ci-template.2](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/compare/2.0.4-issue-convert-to-ci-template.1...2.0.4-issue-convert-to-ci-template.2) (2022-12-20)
+
+
+### Bug Fixes
+
+* build ([56eb6ab](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/commit/56eb6abf1e8115f96e4f77774af50ecb5de416d6))
+
 ## [2.0.4-issue-convert-to-ci-template.1](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/compare/2.0.3...2.0.4-issue-convert-to-ci-template.1) (2022-12-20)
 
 
