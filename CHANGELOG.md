@@ -1,3 +1,31 @@
+## [2.0.4-issue-convert-to-ci-template.4](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/compare/2.0.4-issue-convert-to-ci-template.3...2.0.4-issue-convert-to-ci-template.4) (2022-12-20)
+
+
+### Bug Fixes
+
+* disable skipCi ([42dea6b](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/commit/42dea6b183f7ca0eadd776911e60bedd1891b044))
+
+## [2.0.4-issue-convert-to-ci-template.3](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/compare/2.0.4-issue-convert-to-ci-template.2...2.0.4-issue-convert-to-ci-template.3) (2022-12-20)
+
+
+### Bug Fixes
+
+* npmrc paths were updated in ci template ([37856a1](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/commit/37856a1ad860eff18f0cc8bba84a4d546feea0c7))
+
+## [2.0.4-issue-convert-to-ci-template.2](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/compare/2.0.4-issue-convert-to-ci-template.1...2.0.4-issue-convert-to-ci-template.2) (2022-12-20)
+
+
+### Bug Fixes
+
+* build ([56eb6ab](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/commit/56eb6abf1e8115f96e4f77774af50ecb5de416d6))
+
+## [2.0.4-issue-convert-to-ci-template.1](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/compare/2.0.3...2.0.4-issue-convert-to-ci-template.1) (2022-12-20)
+
+
+### Bug Fixes
+
+* use new ci template ([f5575d8](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/commit/f5575d852e67393fe862a859accbba1f14724ae3))
+
 ## [2.0.3](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/compare/2.0.2...2.0.3) (2022-12-16)
 
 
