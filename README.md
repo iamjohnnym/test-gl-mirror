@@ -27,7 +27,7 @@ which utilizes the `npm` workspaces at the root level of the project.  When
 it gets executed via the pipeline, it will create a new Docker image for each
 of the workspace projects, only when there are changes within that workspace
 though.  Otherwise, it gets ignored.  As time goes on, each of the workspace
-projects will contain different tagged semvers.
+projects will contain different tagged semvers..
 
 Here's a project which currently uses it.
 
