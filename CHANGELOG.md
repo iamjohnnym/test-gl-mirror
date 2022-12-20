@@ -1,3 +1,10 @@
+## [2.0.4-issue-convert-to-ci-template.4](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/compare/2.0.4-issue-convert-to-ci-template.3...2.0.4-issue-convert-to-ci-template.4) (2022-12-20)
+
+
+### Bug Fixes
+
+* disable skipCi ([42dea6b](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/commit/42dea6b183f7ca0eadd776911e60bedd1891b044))
+
 ## [2.0.4-issue-convert-to-ci-template.3](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/compare/2.0.4-issue-convert-to-ci-template.2...2.0.4-issue-convert-to-ci-template.3) (2022-12-20)
 
 
