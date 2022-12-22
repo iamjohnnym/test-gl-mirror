@@ -9,7 +9,7 @@ Shared config for semantic release for all Beepbeepgo npm packages hosted in Git
 ```js
 //release.config.js
 const { semanticReleaseConfigDefault } = require('@beepbeepgo/semantic-release');
-module.exports = semanticReleaseConfigDefault;
+module.exports = semanticReleaseConfigDefault();
 ```
 
 ### Terraform Config
@@ -17,7 +17,7 @@ module.exports = semanticReleaseConfigDefault;
 ```js
 //release.config.js
 const { semanticReleaseConfigTerraform } = require('@beepbeepgo/semantic-release');
-module.exports = semanticReleaseConfigTerraform;
+module.exports = semanticReleaseConfigTerraform();
 ```
 
 ### Docker Multi Config
@@ -38,7 +38,7 @@ The semantic release config would be configured like this.
 ```js
 //release.config.js
 const { semanticReleaseConfigDockerMulti } = require('@beepbeepgo/semantic-release');
-module.exports = semanticReleaseConfigDockerMulti;
+module.exports = semanticReleaseConfigDockerMulti();
 ```
 
 #### Project Configuration for Multi Semantic-Release
@@ -124,7 +124,7 @@ npm i --package-lock-only
 ```js
 //release.config.js
 const { semanticReleaseConfigDocker } = require('@beepbeepgo/semantic-release');
-module.exports = semanticReleaseConfigDocker;
+module.exports = semanticReleaseConfigDocker();
 ```
 
 ## Notable Semantic-Release Packages

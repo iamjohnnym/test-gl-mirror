@@ -72,7 +72,10 @@ const defaultOptions = {
       system: terraformSystem,
       authToken: terraformAuthToken,
       registryUrl: "",
-      excludes: ['./.git', './node_modules', './.npm', './*.xml', './*.json'],
+      excludes: [
+        './.git', './node_modules', './.npm', './*.xml', './*.json',
+        './examples'
+      ],
       appendExcludes: []
     }
   }
