@@ -1,3 +1,10 @@
+## [2.0.5](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/compare/2.0.4...2.0.5) (2022-12-22)
+
+
+### Bug Fixes
+
+* ignore examples/ dir in the terraform project ([4d3fb10](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/commit/4d3fb10ed2d57028502c320f605c49f824d255e0))
+
 ## [2.0.4](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/compare/2.0.3...2.0.4) (2022-12-20)
 
 
