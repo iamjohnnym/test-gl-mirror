@@ -1,3 +1,10 @@
+## [2.0.6-issue-gitlab-ci.2](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/compare/2.0.6-issue-gitlab-ci.1...2.0.6-issue-gitlab-ci.2) (2022-12-22)
+
+
+### Bug Fixes
+
+* bump ([ec28a88](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/commit/ec28a88f4c9d67a99787e138cda885388111c719))
+
 ## [2.0.6-issue-gitlab-ci.1](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/compare/2.0.5...2.0.6-issue-gitlab-ci.1) (2022-12-22)
 
 
