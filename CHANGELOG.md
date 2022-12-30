@@ -1,3 +1,10 @@
+## [2.0.6-issue-gitlab-ci.4](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/compare/2.0.6-issue-gitlab-ci.3...2.0.6-issue-gitlab-ci.4) (2022-12-30)
+
+
+### Bug Fixes
+
+* build ([023af78](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/commit/023af78f8cdf0ecef9054f0c2c6b7be38b3158ef))
+
 ## [2.0.6-issue-gitlab-ci.3](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/compare/2.0.6-issue-gitlab-ci.2...2.0.6-issue-gitlab-ci.3) (2022-12-30)
 
 
