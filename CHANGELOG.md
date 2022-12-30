@@ -1,3 +1,10 @@
+# [2.1.0](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/compare/2.0.5...2.1.0) (2022-12-30)
+
+
+### Features
+
+* update changelog type ([1d9885b](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/commit/1d9885bf0274bd272344fa12edc096845057ce93))
+
 ## [2.0.5](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/compare/2.0.4...2.0.5) (2022-12-22)
 
 
