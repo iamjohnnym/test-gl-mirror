@@ -1,4 +1,4 @@
 include:
   - project: "beepbeepgo/public/gitlab-ci"
-    ref: "issue/use-reference"
+    ref: "main"
     file: "/jobs/default.gitlab-ci.yml"
