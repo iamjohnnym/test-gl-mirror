@@ -2,7 +2,9 @@ function configureReleaseNotesGenerator(o) {
   if (!o.releaseNotesGenerator) {
     return []
   }
-  return ['@semantic-release/release-notes-generator'];
+  return ['@semantic-release/release-notes-generator', {
+    "preset": "conventionalcommits"
+  }];
 }
 
 module.exports = {
