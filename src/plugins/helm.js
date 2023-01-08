@@ -6,13 +6,9 @@ function configureHelm(o) {
     return [];
   }
   const helm = o.plugins.helm;
-  if (o.gitlab) {
-    const baseUrl = process.env.CI_API_V4_URL;
-    const projectId = process.env.CI_PROJECT_ID;
-    chartRegistry = `${baseUrl}/projects/${projectId}/packages/helm/api/${helm.channel}/charts`
-  } else {
-    chartRegistry = helm.registry
-  }
+  const baseUrl = process.env.CI_API_V4_URL;
+  const projectId = process.env.CI_PROJECT_ID;
+  chartRegistry = `${baseUrl}/projects/${projectId}/packages/helm/api/${helm.channel}/charts`
 
   return [
     [
