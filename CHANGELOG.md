@@ -1,3 +1,10 @@
+## [2.1.1-feat-helm-chart.1](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/compare/2.1.0...2.1.1-feat-helm-chart.1) (2023-01-08)
+
+
+### Bug Fixes
+
+* initial push of helm plugin ([dbe48ac](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/commit/dbe48acb96b35ab89e7482f29e2bc5464baa07be))
+
 # [2.1.0](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/compare/2.0.5...2.1.0) (2022-12-30)
 
 
