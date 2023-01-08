@@ -9,14 +9,16 @@ function configureHelm(o) {
   if (o.gitlab) {
     const baseUrl = process.env.CI_API_V4_URL;
     const projectId = process.env.CI_PROJECT_ID;
-    helm.chartRegistry = `${baseUrl}/projects/${projectId}/packages/helm/api/${helm.channel}/charts`
+    chartRegistry = `${baseUrl}/projects/${projectId}/packages/helm/api/${helm.channel}/charts`
+  } else {
+    chartRegistry = helm.registry
   }
 
   return [
     [
       'semantic-release-helm', {
         'chartPath': helm.chartPath,
-        'registry': helm.chartRegistry,
+        'registry': chartRegistry,
         'onlyUpdateVersion': helm.chartOnlyUpdateVersion,
         'crPublish': helm.chartCrPublish,
         'crConfigPath': helm.chartCrConfigPath
