@@ -1,3 +1,10 @@
+## [2.1.1-feat-helm-chart.3](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/compare/2.1.1-feat-helm-chart.2...2.1.1-feat-helm-chart.3) (2023-01-08)
+
+
+### Bug Fixes
+
+* update lock file ([63dbf2d](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/commit/63dbf2d9432209c1c752f9412732e91c908f79fd))
+
 ## [2.1.1-feat-helm-chart.2](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/compare/2.1.1-feat-helm-chart.1...2.1.1-feat-helm-chart.2) (2023-01-08)
 
 
