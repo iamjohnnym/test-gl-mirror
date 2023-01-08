@@ -1,3 +1,10 @@
+## [2.1.1-feat-helm-chart.4](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/compare/2.1.1-feat-helm-chart.3...2.1.1-feat-helm-chart.4) (2023-01-08)
+
+
+### Bug Fixes
+
+* helm url in config was incorrect ([2c38899](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/commit/2c388993cae70fd9a223d845e69a2dbec1b56a2a))
+
 ## [2.1.1-feat-helm-chart.3](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/compare/2.1.1-feat-helm-chart.2...2.1.1-feat-helm-chart.3) (2023-01-08)
 
 
