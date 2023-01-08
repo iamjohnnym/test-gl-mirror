@@ -6,6 +6,7 @@ const { configureReleaseNotesGenerator } = require('./releaseNotesGenerator');
 const { configureChangelog } = require('./changelog');
 const { configureDocker } = require('./docker');
 const { configureTerraform } = require('./terraform');
+const { configureHelm } = require('./helm');
 
 
 function configurePlugins(o) {
@@ -18,7 +19,8 @@ function configurePlugins(o) {
       ...configureGitlab(o),
       ...configureGit(o),
       ...configureDocker(o),
-      ...configureTerraform(o)
+      ...configureTerraform(o),
+      ...configureHelm(o)
     ]
   }
 }

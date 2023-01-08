@@ -1,6 +1,6 @@
 {
   "name": "@beepbeepgo/semantic-release",
-  "version": "2.1.0",
+  "version": "2.1.1-rc.2",
   "description": "A shared nodejs library for managing semantic-release.",
   "repository": {
     "type": "git",
@@ -39,7 +39,8 @@
     "@semantic-release/gitlab": "^9.4.2",
     "@semantic-release/npm": "^9.0.1",
     "@semantic-release/release-notes-generator": "^10.0.3",
-    "semantic-release": "^19.0.2"
+    "semantic-release": "^19.0.2",
+    "semantic-release-helm3": "^2.3.4"
   },
   "publishConfig": {
     "access": "public"

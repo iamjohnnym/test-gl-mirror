@@ -1,3 +1,94 @@
+## [2.1.1-rc.2](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/compare/2.1.1-rc.1...2.1.1-rc.2) (2023-01-08)
+
+
+### Bug Fixes
+
+* remove beta channel from helm ([5607a38](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/commit/5607a388bae31d50e282f72bf2a4d92d692a8a30))
+
+## [2.1.1-rc.1](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/compare/2.1.1-feat-helm-chart.11...2.1.1-rc.1) (2023-01-08)
+
+
+### Bug Fixes
+
+* change how pre release tags are handled for pre-release ([0dd57c3](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/commit/0dd57c3bdf537f790f2c85865778af0d696f4eed))
+
+## [2.1.1-feat-helm-chart.11](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/compare/2.1.1-feat-helm-chart.10...2.1.1-feat-helm-chart.11) (2023-01-08)
+
+
+### Bug Fixes
+
+* change to semantic-release-helm3 for chart museum ([4281679](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/commit/4281679980b18604928d015fde40dc40d8821301))
+
+## [2.1.1-feat-helm-chart.10](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/compare/2.1.1-feat-helm-chart.9...2.1.1-feat-helm-chart.10) (2023-01-08)
+
+
+### Bug Fixes
+
+* oops, stray replace in the string ([f370825](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/commit/f370825004ce89af18ae3891797d06215677e4c5))
+
+## [2.1.1-feat-helm-chart.9](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/compare/2.1.1-feat-helm-chart.8...2.1.1-feat-helm-chart.9) (2023-01-08)
+
+
+### Bug Fixes
+
+* strip https:// ([eb9f24a](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/commit/eb9f24a238edf5018fdbba9ffe3d409d6b2211fe))
+
+## [2.1.1-feat-helm-chart.8](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/compare/2.1.1-feat-helm-chart.7...2.1.1-feat-helm-chart.8) (2023-01-08)
+
+
+### Bug Fixes
+
+* is the conditional broken? ([ec13925](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/commit/ec13925eabee925c003335b03cc2c9e83c12eca5))
+
+## [2.1.1-feat-helm-chart.7](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/compare/2.1.1-feat-helm-chart.6...2.1.1-feat-helm-chart.7) (2023-01-08)
+
+
+### Bug Fixes
+
+* update variable for chartregistry in confgi ([075abc1](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/commit/075abc10f39a640c68a1a226459ceb0f3b283728))
+
+## [2.1.1-feat-helm-chart.6](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/compare/2.1.1-feat-helm-chart.5...2.1.1-feat-helm-chart.6) (2023-01-08)
+
+
+### Bug Fixes
+
+* chartRegistry had the wrong var name ([8848352](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/commit/88483521dd10c487a579fcce3f9f9d3c98b9bb0b))
+
+## [2.1.1-feat-helm-chart.5](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/compare/2.1.1-feat-helm-chart.4...2.1.1-feat-helm-chart.5) (2023-01-08)
+
+
+### Bug Fixes
+
+* variable was incorrect for channel ([5775554](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/commit/5775554838dc4ffb63775206b4fc6f15c0675965))
+
+## [2.1.1-feat-helm-chart.4](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/compare/2.1.1-feat-helm-chart.3...2.1.1-feat-helm-chart.4) (2023-01-08)
+
+
+### Bug Fixes
+
+* helm url in config was incorrect ([2c38899](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/commit/2c388993cae70fd9a223d845e69a2dbec1b56a2a))
+
+## [2.1.1-feat-helm-chart.3](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/compare/2.1.1-feat-helm-chart.2...2.1.1-feat-helm-chart.3) (2023-01-08)
+
+
+### Bug Fixes
+
+* update lock file ([63dbf2d](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/commit/63dbf2d9432209c1c752f9412732e91c908f79fd))
+
+## [2.1.1-feat-helm-chart.2](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/compare/2.1.1-feat-helm-chart.1...2.1.1-feat-helm-chart.2) (2023-01-08)
+
+
+### Bug Fixes
+
+* add the semantic-release-helm package ([a60c336](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/commit/a60c33659a9fc9a37dd1329965cceb54362a6b03))
+
+## [2.1.1-feat-helm-chart.1](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/compare/2.1.0...2.1.1-feat-helm-chart.1) (2023-01-08)
+
+
+### Bug Fixes
+
+* initial push of helm plugin ([dbe48ac](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/commit/dbe48acb96b35ab89e7482f29e2bc5464baa07be))
+
 # [2.1.0](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/compare/2.0.5...2.1.0) (2022-12-30)
 
 

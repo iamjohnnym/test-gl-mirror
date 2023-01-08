@@ -7,7 +7,7 @@ function configureBranches(o, preRelease=true) {
     const sanitizedBranchRef = sanitizeBranchName(o.branchName);
     appendBranches = mergeList(
       o.branches.appendBranches, [{
-        name: branchName, prerelease: sanitizedBranchRef
+        name: branchName, prerelease: 'rc'
       }]);
   }
   branches = mergeList(o.branches.main, appendBranches);
