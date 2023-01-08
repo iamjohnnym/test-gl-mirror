@@ -2,6 +2,14 @@
 
 Shared config for semantic release for all Beepbeepgo npm packages hosted in Gitlab
 
+## Plugins
+
+- NPM
+- Terraform
+- Docker
+- MultiDocker
+- Helm
+
 ## Usage
 
 ### NPM Config (default)
@@ -125,6 +133,14 @@ npm i --package-lock-only
 //release.config.js
 const { semanticReleaseConfigDocker } = require('@beepbeepgo/semantic-release');
 module.exports = semanticReleaseConfigDocker();
+```
+
+### Docker Helm
+
+```js
+//release.config.js
+const { semanticReleaseConfigHelm } = require('@beepbeepgo/semantic-release');
+module.exports = semanticReleaseConfigHelm();
 ```
 
 ## Notable Semantic-Release Packages

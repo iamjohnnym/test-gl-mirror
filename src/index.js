@@ -67,9 +67,24 @@ const semanticReleaseConfigTerraform = (options = {}) => {
   )
 }
 
+const semanticReleaseConfigHelm = (options = {}) => {
+  const overrides = {
+    helm: true,
+    plugins: {
+      git: {
+        skipCi: false
+      }
+    }
+  }
+  return semanticReleaseConfigDefault(
+    merge(merge(defaultOptions, overrides), options)
+  )
+}
+
 module.exports = {
   semanticReleaseConfigDefault,
   semanticReleaseConfigDocker,
   semanticReleaseConfigTerraform,
-  semanticReleaseConfigDockerMulti
+  semanticReleaseConfigDockerMulti,
+  semanticReleaseConfigHelm
 }
