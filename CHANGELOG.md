@@ -1,3 +1,10 @@
+## [2.1.1-feat-helm-chart.5](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/compare/2.1.1-feat-helm-chart.4...2.1.1-feat-helm-chart.5) (2023-01-08)
+
+
+### Bug Fixes
+
+* variable was incorrect for channel ([5775554](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/commit/5775554838dc4ffb63775206b4fc6f15c0675965))
+
 ## [2.1.1-feat-helm-chart.4](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/compare/2.1.1-feat-helm-chart.3...2.1.1-feat-helm-chart.4) (2023-01-08)
 
 
