@@ -9,9 +9,6 @@ function configureHelm(o) {
   if (o.gitlab) {
     const baseUrl = process.env.CI_API_V4_URL;
     const projectId = process.env.CI_PROJECT_ID;
-    if (!process.env.CI_DEFAULT_BRANCH) {
-      helm.channel = 'beta';
-    }
     helm.registry = `${baseUrl}/projects/${projectId}/packages/helm/${helm.channel}`;
     helm.isChartMuseum = true;
   }
