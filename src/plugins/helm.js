@@ -9,7 +9,7 @@ function configureHelm(o) {
   if (o.gitlab) {
     const baseUrl = process.env.CI_API_V4_URL;
     const projectId = process.env.CI_PROJECT_ID;
-    helm.chartRegistry = `${baseUrl}/projects/${projectId}/packages/helm/api/${helm.chartChannel}/charts`
+    chartRegistry = `${baseUrl}/projects/${projectId}/packages/helm/api/${helm.channel}/charts`
   }
 
   return [
