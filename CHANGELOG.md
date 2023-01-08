@@ -1,3 +1,10 @@
+## [2.1.1-feat-helm-chart.11](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/compare/2.1.1-feat-helm-chart.10...2.1.1-feat-helm-chart.11) (2023-01-08)
+
+
+### Bug Fixes
+
+* change to semantic-release-helm3 for chart museum ([4281679](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/commit/4281679980b18604928d015fde40dc40d8821301))
+
 ## [2.1.1-feat-helm-chart.10](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/compare/2.1.1-feat-helm-chart.9...2.1.1-feat-helm-chart.10) (2023-01-08)
 
 
