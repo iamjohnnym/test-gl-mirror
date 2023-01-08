@@ -8,7 +8,7 @@ function configureHelm(o) {
   const helm = o.plugins.helm;
   const baseUrl = process.env.CI_API_V4_URL;
   const projectId = process.env.CI_PROJECT_ID;
-  chartRegistry = `${baseUrl.replace('https://', '')}/projects/${projectId}/packages/helm/api/${helm.channel}/charts`.replace
+  chartRegistry = `${baseUrl.replace('https://', '')}/projects/${projectId}/packages/helm/api/${helm.channel}/charts`
 
   return [
     [
