@@ -1,3 +1,10 @@
+## [2.1.1-feat-helm-chart.10](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/compare/2.1.1-feat-helm-chart.9...2.1.1-feat-helm-chart.10) (2023-01-08)
+
+
+### Bug Fixes
+
+* oops, stray replace in the string ([f370825](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/commit/f370825004ce89af18ae3891797d06215677e4c5))
+
 ## [2.1.1-feat-helm-chart.9](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/compare/2.1.1-feat-helm-chart.8...2.1.1-feat-helm-chart.9) (2023-01-08)
 
 
