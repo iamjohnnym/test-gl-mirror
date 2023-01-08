@@ -1,3 +1,10 @@
+## [2.1.1-feat-helm-chart.8](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/compare/2.1.1-feat-helm-chart.7...2.1.1-feat-helm-chart.8) (2023-01-08)
+
+
+### Bug Fixes
+
+* is the conditional broken? ([ec13925](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/commit/ec13925eabee925c003335b03cc2c9e83c12eca5))
+
 ## [2.1.1-feat-helm-chart.7](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/compare/2.1.1-feat-helm-chart.6...2.1.1-feat-helm-chart.7) (2023-01-08)
 
 
