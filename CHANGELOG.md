@@ -1,3 +1,10 @@
+## [2.1.1-rc.2](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/compare/2.1.1-rc.1...2.1.1-rc.2) (2023-01-08)
+
+
+### Bug Fixes
+
+* remove beta channel from helm ([5607a38](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/commit/5607a388bae31d50e282f72bf2a4d92d692a8a30))
+
 ## [2.1.1-rc.1](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/compare/2.1.1-feat-helm-chart.11...2.1.1-rc.1) (2023-01-08)
 
 
