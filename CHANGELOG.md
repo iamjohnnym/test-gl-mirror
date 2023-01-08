@@ -1,3 +1,10 @@
+## [2.1.1-feat-helm-chart.7](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/compare/2.1.1-feat-helm-chart.6...2.1.1-feat-helm-chart.7) (2023-01-08)
+
+
+### Bug Fixes
+
+* update variable for chartregistry in confgi ([075abc1](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/commit/075abc10f39a640c68a1a226459ceb0f3b283728))
+
 ## [2.1.1-feat-helm-chart.6](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/compare/2.1.1-feat-helm-chart.5...2.1.1-feat-helm-chart.6) (2023-01-08)
 
 

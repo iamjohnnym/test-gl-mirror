@@ -1,6 +1,6 @@
 {
   "name": "@beepbeepgo/semantic-release",
-  "version": "2.1.1-feat-helm-chart.6",
+  "version": "2.1.1-feat-helm-chart.7",
   "description": "A shared nodejs library for managing semantic-release.",
   "repository": {
     "type": "git",
