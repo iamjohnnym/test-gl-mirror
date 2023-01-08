@@ -1,3 +1,10 @@
+## [2.1.1-feat-helm-chart.9](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/compare/2.1.1-feat-helm-chart.8...2.1.1-feat-helm-chart.9) (2023-01-08)
+
+
+### Bug Fixes
+
+* strip https:// ([eb9f24a](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/commit/eb9f24a238edf5018fdbba9ffe3d409d6b2211fe))
+
 ## [2.1.1-feat-helm-chart.8](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/compare/2.1.1-feat-helm-chart.7...2.1.1-feat-helm-chart.8) (2023-01-08)
 
 
