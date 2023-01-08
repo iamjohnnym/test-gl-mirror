@@ -6,18 +6,22 @@ function configureHelm(o) {
     return [];
   }
   const helm = o.plugins.helm;
-  const baseUrl = process.env.CI_API_V4_URL;
-  const projectId = process.env.CI_PROJECT_ID;
-  chartRegistry = `${baseUrl.replace('https://', '')}/projects/${projectId}/packages/helm/api/${helm.channel}/charts`
+  if (o.gitlab) {
+    const baseUrl = process.env.CI_API_V4_URL;
+    const projectId = process.env.CI_PROJECT_ID;
+    helm.registry = `${baseUrl}/projects/${projectId}/packages/helm/${helm.channel}`
+    helm.isChartMuseum = true
+  }
 
   return [
     [
-      'semantic-release-helm', {
+      'semantic-release-helm3', {
         'chartPath': helm.chartPath,
-        'registry': chartRegistry,
-        'onlyUpdateVersion': helm.chartOnlyUpdateVersion,
-        'crPublish': helm.chartCrPublish,
-        'crConfigPath': helm.chartCrConfigPath
+        'registry': helm.registry,
+        'onlyUpdateVersion': helm.onlyUpdateVersion,
+        'crPublish': helm.crPublish,
+        'crConfigPath': helm.crConfigPath,
+        'isChartMuseum': helm.isChartMuseum
       }
     ]
   ];

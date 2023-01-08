@@ -27,6 +27,7 @@ const chartRegistry = process.env.SR_CHART_REGISTRY || "";
 const chartOnlyUpdateVersion = process.env.SR_CHART_ONLY_UPDATE_VERSION || false;
 const chartCrPublish = process.env.SR_CHART_CR_PUBLISH || false;
 const chartCrConfigPath = process.env.SR_CHART_CR_CONFIG_PATH || "";
+const chartIsChartMuseum = process.env.SR_CHART_IS_CHART_MUSEUM || false;
 const chartChannel = process.env.SR_CHART_CHANNEL || "stable";
 
 const defaultOptions = {
@@ -106,6 +107,7 @@ const defaultOptions = {
       onlyUpdateVersion: chartOnlyUpdateVersion,
       crPublish: chartCrPublish,
       crConfigPath: chartCrConfigPath,
+      isChartMuseum: chartIsChartMuseum,
       channel: chartChannel
     }
   }
