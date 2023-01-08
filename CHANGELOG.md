@@ -1,3 +1,10 @@
+## [2.1.1-rc.1](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/compare/2.1.1-feat-helm-chart.11...2.1.1-rc.1) (2023-01-08)
+
+
+### Bug Fixes
+
+* change how pre release tags are handled for pre-release ([0dd57c3](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/commit/0dd57c3bdf537f790f2c85865778af0d696f4eed))
+
 ## [2.1.1-feat-helm-chart.11](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/compare/2.1.1-feat-helm-chart.10...2.1.1-feat-helm-chart.11) (2023-01-08)
 
 
