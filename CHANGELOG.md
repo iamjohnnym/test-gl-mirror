@@ -1,3 +1,11 @@
+# [2.2.0-rc.3](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/compare/2.2.0-rc.2...2.2.0-rc.3) (2023-01-09)
+
+
+### Bug Fixes
+
+* move dockerMulti configs to docker file ([3d057af](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/commit/3d057af58f43b1e01ed1f7b361bdbc8ddffa4e58))
+* oopsy infinity loopsy ([c62a694](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/commit/c62a694e11097d01a7815bbe69836c8d42ab37c5))
+
 # [2.2.0-rc.2](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/compare/2.2.0-rc.1...2.2.0-rc.2) (2023-01-09)
 
 
