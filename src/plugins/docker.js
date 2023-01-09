@@ -1,4 +1,4 @@
-const { merge } = require('../utils');
+const { merge, openJsonFile } = require('../utils');
 
 
 function configureDocker(o) {

@@ -1,6 +1,6 @@
 const {
-  merge, openJsonFile, scanProjectDir,
-  isDockerfile, isTerraform, isHelm } = require('./utils');
+  merge, scanProjectDir, isDockerfile,
+  isTerraform, isHelm } = require('./utils');
 const { configureBranches } = require('./branches');
 const { configureTagFormat } = require('./tagFormat');
 const { configurePlugins } = require('./plugins');
