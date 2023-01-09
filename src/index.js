@@ -27,58 +27,35 @@ const semanticReleaseConfigDefault = async (options = {}) => {
     helm: isHelm(projectContents)
   }
 
-  return semanticReleaseConfig(
+  return semanticReleaseConfigDefault(
     merge(merge(defaultOptions, overrides), options)
   )
 }
 
 const semanticReleaseConfigDocker = (options = {}) => {
-  const overrides = {
-    docker: true
-  }
-  return semanticReleaseConfig(
-    merge(merge(defaultOptions, overrides), options)
+  return semanticReleaseConfigDefault(
+    merge(defaultOptions, options)
   )
 }
 
 const semanticReleaseConfigDockerMulti = (options = {}) => {
-  if (!options.projectPath) {
-    throw 'Invalid Docker Multi config. Must set projectPath param in any \
-          docker project\'s release config.\nSee README."'
-  }
-  const packageJson = openJsonFile(`${options.projectPath}/package.json`)
   const overrides = {
-    docker: true,
-    dockerMulti: true,
-    plugins: {
-      docker: {
-        dockerTags: [
-          `{{#if prerelease.[0]}}${packageJson.docker_version}-{{prerelease.[0]}}{{else}}${packageJson.docker_version}-latest{{/if}}`,
-          `${packageJson.docker_version}-{{version}}`
-        ]
-      }
-    }
+    dockerMulti: true
   }
-  return semanticReleaseConfig(
+  return semanticReleaseConfigDefault(
     merge(merge(defaultOptions, overrides), options)
   )
 }
 
 const semanticReleaseConfigTerraform = (options = {}) => {
-  const overrides = {
-    terraform: true
-  }
-  return semanticReleaseConfig(
-    merge(merge(defaultOptions, overrides), options)
+  return semanticReleaseConfigDefault(
+    merge(defaultOptions, options)
   )
 }
 
 const semanticReleaseConfigHelm = (options = {}) => {
-  const overrides = {
-    helm: true
-  }
-  return semanticReleaseConfig(
-    merge(merge(defaultOptions, overrides), options)
+  return semanticReleaseConfigDefault(
+    merge(defaultOptions, options)
   )
 }
 
