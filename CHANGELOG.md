@@ -1,3 +1,10 @@
+## [2.1.1](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/compare/2.1.0...2.1.1) (2023-01-09)
+
+
+### Bug Fixes
+
+* initial push of helm plugin ([fd684ff](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/commit/fd684ff6f914c93fbc5fff7730cc38a5643b32dc))
+
 ## [2.1.1-rc.2](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/compare/2.1.1-rc.1...2.1.1-rc.2) (2023-01-08)
 
 
