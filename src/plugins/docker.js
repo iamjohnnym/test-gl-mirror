@@ -7,10 +7,13 @@ function configureDocker(o) {
   }
   const docker = o.plugins.docker
   if (o.dockerMulti) {
-    docker.dockerTags = [
-        '{{#if prerelease.[0]}}${nextRelease.name}-{{prerelease.[0]}}{{else}}${nextRelease.name}-latest{{/if}}',
-        '${nextRelease.name}-{{version}}'
-      ]
+    if (!docker.dockerTags) {
+      const packageJson = openJsonFile(`${process.env.npm_workspace_path}/package.json`)
+      docker.dockerTags = [
+          `{{#if prerelease.[0]}}${packageJson.name}-{{prerelease.[0]}}{{else}}${packageJson.name}-latest{{/if}}`,
+          `${packageJson.name}-{{version}}`
+        ]
+    }
   }
   return [
     [
