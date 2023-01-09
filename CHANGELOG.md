@@ -1,3 +1,10 @@
+# [2.2.0-rc.4](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/compare/2.2.0-rc.3...2.2.0-rc.4) (2023-01-09)
+
+
+### Bug Fixes
+
+* update docker projectPath ([32e3401](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/commit/32e3401237b5ba9608c14013a6d8051995073243))
+
 # [2.2.0-rc.3](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/compare/2.2.0-rc.2...2.2.0-rc.3) (2023-01-09)
 
 
