@@ -1,3 +1,10 @@
+# [2.2.0-rc.7](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/compare/2.2.0-rc.6...2.2.0-rc.7) (2023-01-09)
+
+
+### Bug Fixes
+
+* leverage @beepbeepgo/semantic-release-multi ([dfa082f](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/commit/dfa082f023ac906973b55be75eea1c60efaf03bc))
+
 # [2.2.0-rc.6](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/compare/2.2.0-rc.5...2.2.0-rc.6) (2023-01-09)
 
 
