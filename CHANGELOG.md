@@ -1,3 +1,12 @@
+# [2.2.0-rc.2](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/compare/2.2.0-rc.1...2.2.0-rc.2) (2023-01-09)
+
+
+### Bug Fixes
+
+* conditional -1 does not mean false ([f1c718e](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/commit/f1c718e406089ef87927576e998f7043d3520107))
+* detect files ([da031b9](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/commit/da031b99211201484dad26e757ee28c106df2be1))
+* update namepsace ([31f4353](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/commit/31f435373d55efa27104ca54df985090223ed455))
+
 # [2.2.0-rc.1](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/compare/2.1.1...2.2.0-rc.1) (2023-01-09)
 
 
