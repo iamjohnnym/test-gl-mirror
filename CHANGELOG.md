@@ -1,3 +1,10 @@
+# [2.2.0-rc.9](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/compare/2.2.0-rc.8...2.2.0-rc.9) (2023-01-09)
+
+
+### Bug Fixes
+
+* what is nextRelease.name? ([46a5886](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/commit/46a5886a86eb899b07e1479543d149f9d950b346))
+
 # [2.2.0-rc.8](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/compare/2.2.0-rc.7...2.2.0-rc.8) (2023-01-09)
 
 
