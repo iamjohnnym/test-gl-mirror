@@ -33,32 +33,23 @@ const scanProjectDir = async (projectDirPath) => await Promise.all(
   })
 )
 
-const findInProjectFiles = (projectFiles, findFilename) => {
-  if (projectFiles.findIndex(element => element.includes(findFilename))) {
+const findFileInProjectContents = (projectFiles, findFilename) => {
+  if (projectFiles.findIndex(element => element.includes(findFilename)) !== -1) {
     return true;
   }
   return false;
 }
 
 const isDockerfile = (projectFiles) => {
-  if (findInProjectFiles(projectFiles, 'Dockerfile')) {
-    return true;
-  }
-  return false;
+  return findFileInProjectContents(projectFiles, 'Dockerfile');
 }
 
 const isTerraform = (projectFiles) => {
-  if (findInProjectFiles(projectFiles, '.tf')) {
-    return true;
-  }
-  return false;
+  return findFileInProjectContents(projectFiles, '.tf');
 }
 
 const isHelm = (projectFiles) => {
-  if (findInProjectFiles(projectFiles, 'Chart.yaml')) {
-    return true;
-  }
-  return false;
+  return findFileInProjectContents(projectFiles, 'Chart.yaml');
 }
 
 module.exports = {
@@ -68,6 +59,7 @@ module.exports = {
   setBranchName,
   sanitizeBranchName,
   scanProjectDir,
+  findFileInProjectContents,
   isDockerfile,
   isTerraform,
   isHelm
