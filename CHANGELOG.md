@@ -1,3 +1,11 @@
+# [2.2.0-rc.11](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/compare/2.2.0-rc.10...2.2.0-rc.11) (2023-01-09)
+
+
+### Bug Fixes
+
+* add preReleaseName to default config as rc ([157458e](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/commit/157458ea65ff959ea698b1f622032cafeea12e38))
+* prerelase should be true ([22ff174](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/commit/22ff17426b805e856c722a02794134e3eef0dc42))
+
 # [2.2.0-rc.10](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/compare/2.2.0-rc.9...2.2.0-rc.10) (2023-01-09)
 
 
