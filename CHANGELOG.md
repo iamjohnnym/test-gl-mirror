@@ -1,3 +1,10 @@
+# [2.2.0-rc.1](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/compare/2.1.1...2.2.0-rc.1) (2023-01-09)
+
+
+### Features
+
+* detect config type to use ([9fec79b](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/commit/9fec79bd79874b0124515bc9603585f609959ecf))
+
 ## [2.1.1](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/compare/2.1.0...2.1.1) (2023-01-09)
 
 
