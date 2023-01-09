@@ -33,6 +33,7 @@ const chartChannel = process.env.SR_CHART_CHANNEL || "stable";
 const defaultOptions = {
   branchName: branchName,
   preRelease: true,
+  preReleaseName: 'rc',
   commitAnalyzer: true,
   releaseNotesGenerator: true,
   changelog: true,
