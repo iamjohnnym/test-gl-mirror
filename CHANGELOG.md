@@ -1,3 +1,10 @@
+## [2.1.2-rc.1](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/compare/2.1.1...2.1.2-rc.1) (2023-01-09)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @beepbeepgo/eslint-config-beepbeepgo-common to v1.0.7 ([e6871e8](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/commit/e6871e80e6df18b3da26459d3864764c24537f6b))
+
 ## [2.1.1](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/compare/2.1.0...2.1.1) (2023-01-09)
 
 
