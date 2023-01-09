@@ -27,7 +27,7 @@ const semanticReleaseConfigDefault = async (options = {}) => {
     helm: isHelm(projectContents)
   }
 
-  return semanticReleaseConfigDefault(
+  return semanticReleaseConfig(
     merge(merge(defaultOptions, overrides), options)
   )
 }
