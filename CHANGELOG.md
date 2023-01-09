@@ -1,3 +1,10 @@
+# [2.2.0-rc.5](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/compare/2.2.0-rc.4...2.2.0-rc.5) (2023-01-09)
+
+
+### Bug Fixes
+
+* require openJsonFile in docker.js ([0761c0e](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/commit/0761c0ee1579f280b13e87d958b3b1141bb7289d))
+
 # [2.2.0-rc.4](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/compare/2.2.0-rc.3...2.2.0-rc.4) (2023-01-09)
 
 
