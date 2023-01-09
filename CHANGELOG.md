@@ -1,3 +1,10 @@
+# [2.2.0-rc.10](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/compare/2.2.0-rc.9...2.2.0-rc.10) (2023-01-09)
+
+
+### Bug Fixes
+
+* conditional for dockertags ([6826b2b](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/commit/6826b2bae8dc9106b07d7457dac2a56c7762662f))
+
 # [2.2.0-rc.9](https://gitlab.com/beepbeepgo/public/libraries/npm/nodejs-semantic-release-config/compare/2.2.0-rc.8...2.2.0-rc.9) (2023-01-09)
 
 
