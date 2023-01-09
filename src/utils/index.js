@@ -29,7 +29,7 @@ const openJsonFile = (path) => {
 const scanProjectDir = async (projectDirPath) => await Promise.all(
   (await readdir(projectDirPath, {withFileTypes: true})).map(async (dirent) => {
     const path = join(projectDirPath, dirent.name)
-    return dirent.isDirectory() ? await deepReadDir(path) : path
+    return dirent.isDirectory() ? await scanProjectDir(path) : path
   })
 )
 
