@@ -48,6 +48,7 @@ const semanticReleaseConfigDockerMulti = (options = {}) => {
       }
     }
   }
+  console.log(JSON.stringify(process.env))
   return semanticReleaseConfigDefault(
     merge(merge(defaultOptions, overrides), options)
   )
