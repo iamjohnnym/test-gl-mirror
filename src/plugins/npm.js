@@ -5,7 +5,7 @@ function configureNpm(o) {
     return [];
   }
   const npm = o.plugins.npm;
-  return [["@semantic-release/npm", merge({}, npm)]];
+  return ["@semantic-release/npm"];
 }
 
 module.exports = {
