@@ -1,10 +1,13 @@
+const { merge } = require("../utils");
+
 function configureNpm(o) {
   if (!o.npm) {
-    return []
+    return [];
   }
-  return ['@semantic-release/npm']
+  const npm = o.plugins.npm;
+  return [["@semantic-release/npm", merge({}, npm)]];
 }
 
 module.exports = {
-  configureNpm
-}
+  configureNpm,
+};
