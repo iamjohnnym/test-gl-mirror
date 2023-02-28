@@ -1,13 +1,12 @@
-const { configureCommitAnalyzer } = require('./commitAnalyzer');
-const { configureGitlab } = require('./gitlab');
-const { configureNpm } = require('./npm');
-const { configureGit } = require('./git');
-const { configureReleaseNotesGenerator } = require('./releaseNotesGenerator');
-const { configureChangelog } = require('./changelog');
-const { configureDocker } = require('./docker');
-const { configureTerraform } = require('./terraform');
-const { configureHelm } = require('./helm');
-
+const { configureCommitAnalyzer } = require("./commitAnalyzer");
+const { configureGitlab } = require("./gitlab");
+const { configureNpm } = require("./npm");
+const { configureGit } = require("./git");
+const { configureReleaseNotesGenerator } = require("./releaseNotesGenerator");
+const { configureChangelog } = require("./changelog");
+const { configureDocker } = require("./docker");
+const { configureTerraform } = require("./terraform");
+const { configureHelm } = require("./helm");
 
 function configurePlugins(o) {
   return {
@@ -15,16 +14,16 @@ function configurePlugins(o) {
       ...configureCommitAnalyzer(o),
       ...configureReleaseNotesGenerator(o),
       ...configureChangelog(o),
-      ...configureNpm(o),
       ...configureGitlab(o),
       ...configureGit(o),
+      ...configureNpm(o),
       ...configureDocker(o),
       ...configureTerraform(o),
-      ...configureHelm(o)
-    ]
-  }
+      ...configureHelm(o),
+    ],
+  };
 }
 
 module.exports = {
-  configurePlugins
-}
+  configurePlugins,
+};
