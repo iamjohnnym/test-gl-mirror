@@ -104,6 +104,8 @@ const defaultOptions = {
         "./*.xml",
         "./*.json",
         "./examples",
+        "./terraformrc",
+        "**/.terraform",
       ],
       appendExcludes: [],
     },
