@@ -5,7 +5,6 @@ function configureNpm(o) {
     return [];
   }
   const npm = o.plugins.npm;
-  delete npm.assets;
   return [["@semantic-release/npm", merge({}, npm)]];
 }
 
