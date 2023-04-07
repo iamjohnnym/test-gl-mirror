@@ -16,10 +16,10 @@ function configurePlugins(o) {
       ...configureChangelog(o),
       ...configureNpm(o),
       ...configureHelm(o),
-      ...configureGitlab(o),
-      ...configureGit(o),
       ...configureDocker(o),
       ...configureTerraform(o),
+      ...configureGitlab(o),
+      ...configureGit(o),
     ],
   };
 }
