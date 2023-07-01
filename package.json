@@ -1,6 +1,6 @@
 {
   "name": "@beepbeepgo/semantic-release",
-  "version": "2.2.15",
+  "version": "2.2.16-rc.1",
   "description": "A shared nodejs library for managing semantic-release.",
   "repository": {
     "type": "git",
