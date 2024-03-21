@@ -1,4 +1,4 @@
-// Exports config for jest
+// Exports config for jest.
 module.exports = {
     collectCoverageFrom: ['./**/*.js', '!**/node_modules/**' ],
     coverageReporters: ['html', 'text', 'text-summary', 'cobertura'],
